@@ -30,7 +30,7 @@
     "@typescript-eslint/no-use-before-define": [2, "nofunc"],
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
-    "@typescript-eslint/no-unused-vars": "on",
+    "@typescript-eslint/no-unused-vars": 2,
     "import/prefer-default-export": "off",
     "import/extensions": "off",
     "lines-between-class-members": "off",
@@ -80,15 +80,15 @@
     "one-var": 0,
     "quotes": [2, "double"],
     "strict": [2, "never"],
-    "no-shadow": 0, // I don't agree with it. /Raf
+    "no-shadow": 0, // I don't agree with it.
     // "prefer-arrow-callback": 2,
     // "space-before-function-paren": 0,
     // "operator-linebreak": 0,
     // "implicit-arrow-linebreak": 0,
     // "function-paren-newline": 0,
     // "no-tabs": 0,
-    "no-undef": 0, // I don't agree with it. /Raf
-    // "no-unused-vars": 2,
+    "no-undef": 0, // I don't agree with it.
+    "no-unused-vars": 2,
     // "wrap-iife": 0,
     // "eol-last": 0,
     // "no-mixed-requires": 0,
