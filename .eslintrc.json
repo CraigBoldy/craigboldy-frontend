@@ -1,5 +1,4 @@
 {
-  "extends": "next/core-web-vitals",
   "globals": {
     // Global 'variables' we define in webpack config.
     "__THEME_NAME__": "readonly",
@@ -21,6 +20,7 @@
   "plugins": ["@typescript-eslint", "react-hooks"],
   "extends": [
     "airbnb-base",
+    "next/core-web-vitals",
     "plugin:import/typescript",
     "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
