@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
-      - run: yarn lint --from=HEAD~1
+      - run: yarn lint
