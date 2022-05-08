@@ -19,7 +19,6 @@
   },
   "plugins": ["@typescript-eslint", "react-hooks"],
   "extends": [
-    "airbnb-base",
     "next/core-web-vitals",
     "plugin:import/typescript",
     "plugin:jsx-a11y/recommended",
